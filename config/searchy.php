@@ -9,19 +9,19 @@ return [
     'drivers' => [
 
         'fuzzy' => [
-            'class' => 'TomLingham\Searchy\SearchDrivers\FuzzySearchDriver',
+            'class' => 'HighSolutions\LaravelSearchy\SearchDrivers\FuzzySearchDriver',
         ],
 
         'ufuzzy' => [
-            'class' => 'TomLingham\Searchy\SearchDrivers\FuzzySearchUnicodeDriver',
+            'class' => 'HighSolutions\LaravelSearchy\SearchDrivers\FuzzySearchUnicodeDriver',
         ],
 
         'simple' => [
-            'class' => 'TomLingham\Searchy\SearchDrivers\SimpleSearchDriver',
+            'class' => 'HighSolutions\LaravelSearchy\SearchDrivers\SimpleSearchDriver',
         ],
 
         'levenshtein' => [
-            'class' => 'TomLingham\Searchy\SearchDrivers\LevenshteinSearchDriver',
+            'class' => 'HighSolutions\LaravelSearchy\SearchDrivers\LevenshteinSearchDriver',
         ],
 
     ],

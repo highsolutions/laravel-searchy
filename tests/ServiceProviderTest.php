@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Tests\Searchy;
+namespace HighSolutions\Tests\LaravelSearchy;
 
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
 use TomLingham\Searchy\SearchBuilder;

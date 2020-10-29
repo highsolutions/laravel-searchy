@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy\Matchers;
+namespace HighSolutions\LaravelSearchy\Matchers;
 
 /**
  * Matches the start of each word against each word in a search.

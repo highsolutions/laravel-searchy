@@ -1,12 +1,7 @@
-## !! UNMAINTAINED !! This package is no longer maintained
+![Laravel-Searchy by HighSolutions](https://raw.githubusercontent.com/highsolutions/laravel-searchy/master/intro.jpg)
 
-Please see [Issue #117](https://github.com/TomLingham/Laravel-Searchy/issues/117)
-
-Here are some links to alternatives that you may be able to use (I do not guarantee the suitability or the quality of these projects, please ensure you do your own due dilligence in ensuring they meet your requirements):
-
-- *TODO*
-
-## Laravel 5+ Searchy
+Laravel-Searchy
+==========================
 
 ### Database Searching Made Easy
 
@@ -16,34 +11,23 @@ It requires no other software installed on your server (so can be a little slowe
 
 #### !! Laravel 4 !!
 
-Looking for Laravel 4 compatible Searchy? Checkout the 1.0 branch :)
+Looking for Laravel 4 compatible Searchy? Checkout the 1.0 branch of the original repository
 
 https://github.com/TomLingham/Laravel-Searchy/tree/1.0
 
 ## Installation
 
-Add `"tom-lingham/searchy" : "2.*"` to your composer.json file under `require`:
+Add `"highsolutions/laravel-searchy" : "^8.0"` to your composer.json file under `require`:
 
 ```json
 "require": {
-  "laravel/framework": "5.*",
-  "tom-lingham/searchy" : "2.*"
+  "highsolutions/laravel-searchy" : "^8.0"
 }
 ```
 
 Run `composer update` in your terminal to pull down the package into your vendors folder.
 
-Add the service provider to the `providers` array in Laravel's `./config/app.php` file:
-
-```php
-TomLingham\Searchy\SearchyServiceProvider::class
-```
-
-Add the Alias to the `aliases` array in Laravel's `./config/app.php` file if you want to have quick access to it in your application:
-
-```php
-'Searchy' => TomLingham\Searchy\Facades\Searchy::class
-```
+Supports Laravel 6, 7, 8.
 
 ## Usage
 
@@ -271,8 +255,6 @@ It's really easy to roll your own search drivers. Simply create a class that ext
 
 To create your own matchers, you can create your own class that extends `TomLingham\Searchy\Matchers\BaseMatcher` and (for simple Matchers) override the `formatQuery` method to return a string formatted with `%` wildcards in required locations. For more advanced extensions you may need to override the `buildQuery` method and others as well.
 
-## Contributing & Reporting Bugs
+## Original Author
 
-If you would like to improve on the code that is here, feel free to submit a pull request.
-
-If you find any bugs, submit them here and I will respond as soon as possible. Please make sure to include as much information as possible.
+Original author is Tom Lingham who stopped maintaing this repo. We have forked it to have support for new Laravel versions.

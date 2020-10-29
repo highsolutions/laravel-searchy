@@ -1,9 +1,9 @@
 <?php
 
-namespace TomLingham\Searchy;
+namespace HighSolutions\LaravelSearchy;
 
 use Illuminate\Config\Repository;
-use TomLingham\Searchy\SearchDrivers\FuzzySearchDriver;
+use HighSolutions\LaravelSearchy\SearchDrivers\FuzzySearchDriver;
 
 /**
  * @property mixed driverName

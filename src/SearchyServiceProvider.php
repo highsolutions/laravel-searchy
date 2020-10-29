@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy;
+namespace HighSolutions\LaravelSearchy;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
@@ -13,7 +13,7 @@ use Laravel\Lumen\Application as LumenApplication;
  * @author Tom Lingham <tjlingham@gmail.com>
  * @author Vincent Klaiber <hello@vinkla.com>
  */
-class SearchyServiceProvider extends ServiceProvider
+class LaravelSearchyServiceProvider extends ServiceProvider
 {
     /**
      * Boot the service provider.

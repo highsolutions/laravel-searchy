@@ -1,9 +1,9 @@
 <?php
 
-namespace TomLingham\Searchy\SearchDrivers;
+namespace HighSolutions\LaravelSearchy\SearchDrivers;
 
 use Illuminate\Support\Facades\Schema;
-use TomLingham\Searchy\Interfaces\SearchDriverInterface;
+use HighSolutions\LaravelSearchy\Interfaces\SearchDriverInterface;
 
 abstract class BaseSearchDriver implements SearchDriverInterface
 {

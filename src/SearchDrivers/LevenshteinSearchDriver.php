@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy\SearchDrivers;
+namespace HighSolutions\LaravelSearchy\SearchDrivers;
 
 class LevenshteinSearchDriver extends BaseSearchDriver
 {
@@ -8,6 +8,6 @@ class LevenshteinSearchDriver extends BaseSearchDriver
      * @var array
      */
     protected $matchers = [
-        \TomLingham\Searchy\Matchers\LevenshteinMatcher::class           => 100,
+        \HighSolutions\LaravelSearchy\Matchers\LevenshteinMatcher::class           => 100,
     ];
 }

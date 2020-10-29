@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy\Interfaces;
+namespace HighSolutions\LaravelSearchy\Interfaces;
 
 interface SearchDriverInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy\Facades;
+namespace HighSolutions\LaravelSearchy\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

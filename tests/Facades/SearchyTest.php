@@ -1,11 +1,11 @@
 <?php
 
-namespace TomLingham\Tests\Searchy\Facades;
+namespace HighSolutions\Tests\LaravelSearchy\Facades;
 
 use GrahamCampbell\TestBenchCore\FacadeTrait;
 use TomLingham\Searchy\Facades\Searchy;
 use TomLingham\Searchy\SearchBuilder;
-use TomLingham\Tests\Searchy\AbstractTestCase;
+use HighSolutions\Tests\LaravelSearchy\AbstractTestCase;
 
 /**
  * This is the searchy facade test class.

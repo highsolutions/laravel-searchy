@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy\Matchers;
+namespace HighSolutions\LaravelSearchy\Matchers;
 
 /**
  * Matches a string based on how many times the search string appears inside the string
