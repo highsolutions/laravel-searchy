@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Tests\Searchy;
+namespace HighSolutions\Tests\LaravelSearchy;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
 use TomLingham\Searchy\SearchyServiceProvider;

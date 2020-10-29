@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy\SearchDrivers;
+namespace HighSolutions\LaravelSearchy\SearchDrivers;
 
 class FuzzySearchDriver extends BaseSearchDriver
 {
@@ -8,13 +8,13 @@ class FuzzySearchDriver extends BaseSearchDriver
      * @var array
      */
     protected $matchers = [
-        \TomLingham\Searchy\Matchers\ExactMatcher::class                 => 100,
-        \TomLingham\Searchy\Matchers\StartOfStringMatcher::class         => 50,
-        \TomLingham\Searchy\Matchers\AcronymMatcher::class               => 42,
-        \TomLingham\Searchy\Matchers\ConsecutiveCharactersMatcher::class => 40,
-        \TomLingham\Searchy\Matchers\StartOfWordsMatcher::class          => 35,
-        \TomLingham\Searchy\Matchers\StudlyCaseMatcher::class            => 32,
-        \TomLingham\Searchy\Matchers\InStringMatcher::class              => 30,
-        \TomLingham\Searchy\Matchers\TimesInStringMatcher::class         => 8,
+        \HighSolutions\LaravelSearchy\Matchers\ExactMatcher::class                 => 100,
+        \HighSolutions\LaravelSearchy\Matchers\StartOfStringMatcher::class         => 50,
+        \HighSolutions\LaravelSearchy\Matchers\AcronymMatcher::class               => 42,
+        \HighSolutions\LaravelSearchy\Matchers\ConsecutiveCharactersMatcher::class => 40,
+        \HighSolutions\LaravelSearchy\Matchers\StartOfWordsMatcher::class          => 35,
+        \HighSolutions\LaravelSearchy\Matchers\StudlyCaseMatcher::class            => 32,
+        \HighSolutions\LaravelSearchy\Matchers\InStringMatcher::class              => 30,
+        \HighSolutions\LaravelSearchy\Matchers\TimesInStringMatcher::class         => 8,
 ];
 }

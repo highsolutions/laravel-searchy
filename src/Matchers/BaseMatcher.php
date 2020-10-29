@@ -1,8 +1,8 @@
 <?php
 
-namespace TomLingham\Searchy\Matchers;
+namespace HighSolutions\LaravelSearchy\Matchers;
 
-use TomLingham\Searchy\Interfaces\MatcherInterface;
+use HighSolutions\LaravelSearchy\Interfaces\MatcherInterface;
 
 /**
  * @property mixed multiplier

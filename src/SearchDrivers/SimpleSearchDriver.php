@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy\SearchDrivers;
+namespace HighSolutions\LaravelSearchy\SearchDrivers;
 
 class SimpleSearchDriver extends BaseSearchDriver
 {
@@ -8,8 +8,8 @@ class SimpleSearchDriver extends BaseSearchDriver
      * @var array
      */
     protected $matchers = [
-        \TomLingham\Searchy\Matchers\ExactMatcher::class                 => 100,
-        \TomLingham\Searchy\Matchers\StartOfStringMatcher::class         => 50,
-        \TomLingham\Searchy\Matchers\InStringMatcher::class              => 30,
+        \HighSolutions\LaravelSearchy\Matchers\ExactMatcher::class                 => 100,
+        \HighSolutions\LaravelSearchy\Matchers\StartOfStringMatcher::class         => 50,
+        \HighSolutions\LaravelSearchy\Matchers\InStringMatcher::class              => 30,
     ];
 }
