@@ -27,7 +27,7 @@ Add `"highsolutions/laravel-searchy" : "^8.0"` to your composer.json file under 
 
 Run `composer update` in your terminal to pull down the package into your vendors folder.
 
-Supports Laravel 6, 7, 8.
+Supports Laravel 6, 7, 8, 9.
 
 ## Usage
 
